@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/reset.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <script src="static/js/script.js" defer></script>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <nav class="header-navigation-navbar">
+            <a href="index.html"><h1 class="logo">logo</h1></a>
+            <ul class="header-navigation">
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#my-work">Work</a></li>
+                <li><a href="#my-experience">Experience</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+            </ul>
+            <button type="button">resume</button>
+            <div class="burger-menu-container">
+            <div class="burger-menu" onclick="burgerMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div id="dropped-burger-menu">
+                <nav class="dropped-burg-menu-nav">
+                    <ul>
+                        <a href="#about-me"><li>About</li></a>
+                        <a href="#my-work"><li>Work</li></a>
+                        <a href="#my-experience"><li>Experience</li></a>
+                        <a href="#contact-me"><li>Contact</li></a>
+                    </ul>
+                </nav>
+            </div>
+         </div>
+        </nav>
+    </div>
+    </header>
+    <main>
+        <!-- First section, About me -->
+        <section id="about-me">
+            <h2 class="section-title text-center">about me</h2>
+            <div class="container first-section-container">
+                <div class="section-1-picture">
+                    <img src="static/images/section-1-images/medium -size/profile-picture.png" alt="Profile picture, A girl">
+                </div>
+                <div class="section-1-text">
+                    <h3>Hello</h3>
+                    <p>Nunito is a playful, friendly, and modern font that works well for landing page design, software design, and many other use cases.
+                        Nunito is a playful, friendly, and modern font that works well for landing page design, software design, and many other use cases.                    
+                        </p>
+                    <form class="work-together-button">
+                        <button type="button">Let's work together</button>
+                    </form>
+                    <div class="scroll-down-button">
+                        <form>
+                            <a href="#contact-me">
+                            <button type="button">
+                                <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L7 7L13 1" stroke="#00FFF5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                    
+                            </button>
+                        </a>
+                        </form>
+                        <a href="#contact-me"><h3>say hello</h3></a>
+                    </div>
+                 </div>
+                 <div class="section-1-contacts">
+                    <img src="static/images/section-1-images/small-icons/github-icon.png" alt="Github icon">
+                    <img src="static/images/section-1-images/small-icons/facebook-icon.png" alt="Facebook icon">
+                    <img src="static/images/section-1-images/small-icons/linkedin-icon.png" alt="Linkedin icon">
+                    <img src="static/images/section-1-images/small-icons/instagram-icon.png" alt="Instagram icon">
+                    <div class="section-1-contacts-line"></div>
+                </div>
+            </div>
+        </section>
+        <!-- Second section -->
+        <section id ="my-work">
+            <h2 class="section-title text-center">work</h2>
+            <div class="container second-section-container">
+                <div class="my-work">
+                    <img src="static/images/section-2-images/test-pic.png" alt="test pic">
+                    <div class="hovered-work">
+                        <a href="#"><button type="button">See full Project</button></a>
+                    </div>
+                </div>
+                <div class="my-work">
+                    <img src="static/images/section-2-images/test-pic.png" alt="test pic">
+                    <div class="hovered-work">
+                        <a href="#"><button type="button">See full Project</button></a>
+                    </div>
+                </div>
+                <div class="my-work">
+                    <img src="static/images/section-2-images/test-pic.png" alt="test pic">
+                    <div class="hovered-work">
+                        <a href="#"><button type="button">See full Project</button></a>
+                    </div>
+                </div>
+                <div class="my-work">
+                    <img src="static/images/section-2-images/test-pic.png" alt="test pic">
+                    <div class="hovered-work">
+                        <a href="#"><button type="button">See full Project</button></a>
+                    </div>
+                </div>
+                <div class="my-work">
+                    <img src="static/images/section-2-images/test-pic.png" alt="test pic">
+                    <div class="hovered-work">
+                        <a href="#"><button type="button">See full Project</button></a>
+                    </div>
+                </div>
+                <div class="my-work">
+                    <img src="static/images/section-2-images/test-pic.png" alt="test pic">
+                    <div class="hovered-work">
+                        <a href="#"><button type="button">See full Project</button></a>
+                    </div>
+                </div>
+                <form class="my-work-button">
+                    <a href="static/pages/recent-work.html"><button type="button">Show more...</button></a>
+                </form>
+            </div>
+        </section>
+        <!-- Third section -->
+        <section id="my-experience">
+            <h2 class="section-title text-center">experience</h2>
+            <div class="container third-section-container">
+                <div class="experience-text-container">
+                    <h3>June 2022 - Present</h3>
+                    <div class="experience-text">
+                        <div class="experience-text-left">
+                            <h4>unilab intership</h4>
+                            <h4>front end developer</h4>
+                        </div>
+                        <div class="experience-text-right">
+                            <ul type="circle">
+                                <li>
+                                    A front-end developer builds the front-end portion of websites and web applications—that is, the part that users actually see and interact with. A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with.
+                                </li>
+                                <li>
+                                    A front-end developer builds the front-end portion of websites and web applications—that is, the part that users actually see and interact with. 
+                                </li>
+                            </ul>
+                            <a href="#">See more...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-text-container">
+                    <h3>June 2022 - Present</h3>
+                    <div class="experience-text">
+                        <div class="experience-text-left">
+                            <h4>unilab intership</h4>
+                            <h4>front end developer</h4>
+                        </div>
+                        <div class="experience-text-right">
+                            <ul type="circle">
+                                <li>
+                                    A front-end developer builds the front-end portion of websites and web applications—that is, the part that users actually see and interact with. A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with.
+                                </li>
+                                <li>
+                                    A front-end developer builds the front-end portion of websites and web applications—that is, the part that users actually see and interact with. 
+                                </li>
+                            </ul>
+                            <a href="#">See more...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fourth section -->
+        <section id="contact-me">
+            <h2 class="section-title text-center">Contact</h2>
+            <div class="container fourth-section-container">
+                <div class="contact-top-div">
+                    <h3>Interested in collaborating with me?</h3>
+                    <p>I’m always open to discussing product design work or partnership opportunities.</p>
+                </div>
+                <div class="contact-middle-div">
+                    <div class="social-media-links-div">
+                        <nav class="contact-navigation">
+                            <ul>
+                                <div class="contact-nav-top">
+                                    <li><a href="#"><address>+995 333 67 56 43</address></a></li>
+                                    <li><a href="#"><address>contact@contact.ge</address></a></li>
+                                </div>
+                                <div class="contact-nav-bottom">
+                                    <a href="#"><img src="static/images/section-4-images/small-icons/github-icon.png" alt="Github icon"></a>
+                                    <a href="#"><img src="static/images/section-4-images/small-icons/facebook-icon.png" alt="FaceBook icon"></a>
+                                    <a href="#"><img src="static/images/section-4-images/small-icons/linkedin-icon.png" alt="LinkedIn icon"></a>
+                                    <a href="#"><img src="static/images/section-4-images/small-icons/instagram-icon.png" alt="Instagram icon"></a>
+                                </div>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="contact-image-div">
+                        <img src="static/images/section-4-images/medim-size/macbook-image.png" alt="MacBook Pro">
+                    </div>
+                </div>
+                <div class="contact-bottom-div">
+                    <a href="#"><button type="button">Get in touch</button></a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
