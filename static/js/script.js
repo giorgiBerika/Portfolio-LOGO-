@@ -1,9 +1,4 @@
-function burgerMenu(){
-    var droppedBurgerMenu = document.getElementById("dropped-burger-menu");
-    if(droppedBurgerMenu.style.display === "block"){
-    droppedBurgerMenu.style.display = "none";
-    }
-    else{
-        droppedBurgerMenu.style.display ="block";
-    }
-}
+const burgerMenu = document.querySelector(".burger-menu");
+burgerMenu.addEventListener("click", function () {
+    document.querySelector(".dropped-burger-menu").classList.toggle("dropped-burg-menu-active");
+});
